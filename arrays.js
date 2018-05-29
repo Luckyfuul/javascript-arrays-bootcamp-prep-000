@@ -38,8 +38,8 @@ function addElementToEndOfArray(array,element){
   return newArray
 }
 function destructiveAddElementToEndOfArray(array,element){
-  var changedArray = [array.unshift(element)]
-  return changedArray
+  array.push(element)
+  return array
 }
 function accessElementsInArray(array,index){
   return array[index]
