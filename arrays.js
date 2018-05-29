@@ -34,26 +34,26 @@ function destructivelyAddElementToBeginningOfArray(array,element){
  
 }
 function addElementToEndOfArray(array,element){
-  const  newArray = [...array,element]
-  return newArray
+  const  newArray = [...array,element];
+  return newArray;
 }
 function destructivelyAddElementToEndOfArray(array,element){
   array.push(element);
   return array;
 }
 function accessElementsInArray(array,index){
-  return array[index]
+  return array[index];
 }
 function destructivelyRemoveElementFromBeginningOfArray(array){
-  return array.shift()
+  return array.shift();
 }
 function removeElementFromBeginningOfArray(array){
-  var slicedArray = array.slice(1)
-  return slicedArray
+  var slicedArray = array.slice(1);
+  return slicedArray;
 }
 function destructivelyRemoveElementFromEndofArray(array){
-  return array.pop()
+  return array.pop();
 }
 function removeElementFromEndOfArray(array){
-  return (array.slice(0,array.length - 1))
+  return (array.slice(0,array.length - 1));
 }
